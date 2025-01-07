@@ -5,7 +5,7 @@ public class PrimeNumber {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		int no = 6;
+		int no = 5;
 		int div = 2;
 		
 		while(div<no) {
