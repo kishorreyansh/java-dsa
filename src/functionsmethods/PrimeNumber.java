@@ -15,7 +15,7 @@ public class PrimeNumber {
 //		return isPrime;
 //	}
 	
-	public static boolean primeOptimized(int n) {
+	/*public static boolean primeOptimized(int n) {
 		if(n == 2) {
 			return true;
 		}
@@ -26,12 +26,25 @@ public class PrimeNumber {
 			}
 		}
 		return true;
+	}*/
+
+	public static boolean primeTikTok(int num) {
+		if(num <= 1) {
+			return false;
+		}
+
+		for(int i=2; i < num; i++) {
+			if(num %i == 0) {
+				return false;
+			}
+		}
+		return true;
 	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int n=3;
-		boolean val = primeOptimized(n);
+		int n=8;
+		boolean val = primeTikTok(n);
 		if(val == true) {
 			System.out.println("Number is Prime");
 		}else {

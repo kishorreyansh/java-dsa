@@ -4,7 +4,7 @@ public class Q3 {
 
     public static void main(String[] args) {
         
-        int day = 5;
+        int day = 2;
 
         switch (day) {
 

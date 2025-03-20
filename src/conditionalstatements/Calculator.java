@@ -10,7 +10,8 @@ public class Calculator {
 		Scanner sc = new Scanner(System.in);
 		int a = sc.nextInt();
 		int b = sc.nextInt();
-		
+
+		//sc.next() comes string we need character
 		char operator = sc.next().charAt(0);
 		
 		switch(operator) {
